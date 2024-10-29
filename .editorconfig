@@ -1,0 +1,14 @@
+# Indicar que se trata de un archivo .editorconfig
+root = true
+
+# Establecer reglas por defecto para todos los archivos
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+# Configuraciones específicas para archivos .java
+[*.java]
+indent_style = space    # Usar tabulaciones o espacios
+indent_size = 4         # Espacio que ocupa la indentación
+max_line_length = 100   # Límite de caracteres por línea
