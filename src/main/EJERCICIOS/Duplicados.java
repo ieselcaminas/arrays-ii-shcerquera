@@ -1,34 +1,44 @@
-package EJERCICIOS;
+package main.EJERCICIOS;
 
+import javax.xml.transform.Source;
 import java.util.ArrayList;
-import java.util.HashSet;
 
 //Escribid un programa Java para encontrar los valores duplicados de un array de valores enteros.
 public class Duplicados {
-    public static void main(String[] args) {
 
-        int[] numeros = {1, 2, 1, 3, 5, 8, 2, 4, 6, 5, 3};
 
-        numerDuplicados(numeros);
-    }
-    public static void numerDuplicados (int[]array){
-        ArrayList<Integer> duplicados = new ArrayList<>();
+    public static String duplicados(int[] array) {
+        ArrayList<Integer> duplicadosArray = new ArrayList<>();
         for (int i = 0; i < array.length; i++) {
             for (int j = i + 1; j < array.length; j++) {
-                if (array[i] == array[j] && !duplicados.contains(j));
-                duplicados.add(array[i]);
-                System.out.println("valores duplicados," + duplicados);
-
+                if (array[i] == array[j] && !duplicadosArray.contains(j)) {
+                    duplicadosArray.add(array[i]);
+                }
+            }
+        }
+        if (duplicadosArray.isEmpty()) {
+            return "";
+        } else {
+            String duplicados = "";
+            for (int index = 0; index < duplicadosArray.size(); index++) {
+                duplicados += duplicadosArray.get(index) + ", ";
             }
 
+            return duplicados;
         }
-        if (duplicados.isEmpty()){
-            System.out.println("no hay duplicados");
+    }
+
+    public static void main(String[] args) {
+
+        int[] numeros = {1, 2, 3, 4, 1};
+
+        String resultadoDuplicados = duplicados(numeros);
+
+        if (resultadoDuplicados == "") {
+            System.out.println("No hay duplicados.");
+        } else {
+            System.out.println("Los duplicados son: " + resultadoDuplicados);
         }
+    }
 
-
-
-
-
-    }// incompleto falta metodo  y hay un error al ejecutarlo
 }

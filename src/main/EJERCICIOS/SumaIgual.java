@@ -1,43 +1,41 @@
-package EJERCICIOS;
+package main.EJERCICIOS;
 
 import java.util.HashSet;
+import java.util.Scanner;
 
 //Escribid un programa Java para encontrar todos los pares de elementos en un array cuya suma es
 // igual a un número especificado por el usuario.
 public class SumaIgual {
+
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Especifica el numero del resultado: ");
 
-        int[] nums1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int[] nums2 = nums1.clone();
+        int result = sc.nextInt();
 
-        //verificar y almacenar  igualdad de los dos arrays
-        boolean esIgual = true;
+        int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-        //verificar igualdad
-        if (nums1.length != nums2.length){
-            esIgual = false; // si son diferentes las longitudes
-        }else{
-            for (int i = 0; i < nums1.length; i++) {
-                if (nums1[i] != nums2[i]){
-                    esIgual= false;
-                    break;
+        String results = sumaIguales(numbers, result);
+
+        System.out.println(results);
+    }
+
+    public static String sumaIguales(int[] numbers, int result) {
+        String results = "";
+
+        for (int indexA = 0; indexA < numbers.length; indexA++) {
+            for (int indexB = indexA + 1; indexB < numbers.length; indexB++) {
+                if (numbers[indexA] + numbers[indexB] == result) {
+                    results += "[" + numbers[indexA] + " + " + numbers[indexB] + "] ";
                 }
-
             }
-        }// verificar y añadir metodo
+        }
 
+        if (results == ""){
+            return "Ninguna coincidencia";
+        }
 
-
-
-
-
-
-
-
-
-
-
-
+        return results;
     }
 
 }
