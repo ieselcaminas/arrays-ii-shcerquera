@@ -1,9 +1,11 @@
+package test;
 
-import EJERCICIOS.Duplicados;
-import jdk.internal.foreign.abi.Binding;
+import main.Duplicados;
+
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 class DuplicadosTest {
     @Test

@@ -1,7 +1,10 @@
+package test;
+
 import main.Eliminar;
+
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class EliminarTest {
 
@@ -20,13 +23,13 @@ class EliminarTest {
     @Test
     void eliminarUltimo() {
         assertArrayEquals(new int[]{4, 5, 8, 9},
-            Eliminar.eliminar(new int[]{4, 5, 8, 9}, 3), "No funciona cuando se elimina el último" );
+            Eliminar.eliminar(new int[]{4, 5, 8, 9}, 3), "No funciona cuando se elimina el último");
     }
 
     @Test
     void moverUltimo() {
         assertArrayEquals(new int[]{4, 5, 8, 9},
-            Eliminar.moverAlFinal(new int[]{4, 5, 8, 9}, 3), "No funciona cuando se elimina el último" );
+            Eliminar.moverAlFinal(new int[]{4, 5, 8, 9}, 3), "No funciona cuando se elimina el último");
     }
 
     @Test

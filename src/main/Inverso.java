@@ -1,4 +1,4 @@
-package EJERCICIOS;
+package main;
 
 //Crea un programa que a partir de un array de enteros, cree una copia en otro array con los
 // elementos en orden inverso

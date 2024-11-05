@@ -1,4 +1,4 @@
-package EJERCICIOS;
+package main;
 
 import java.util.Scanner;
 
@@ -30,7 +30,7 @@ public class SumaIgual {
             }
         }
 
-        if (results == ""){
+        if (results == "") {
             return "Ninguna coincidencia";
         }
 

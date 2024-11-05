@@ -1,6 +1,6 @@
-package EJERCICIOS;
+package main;
 
-import main.Utilidades;
+import main.utils.Utilidades;
 
 import java.util.Arrays;
 
@@ -31,5 +31,11 @@ public class Iguales {
             System.out.println("Los Arrays no son iguales.");
         }
 
+    }
+
+    public static class Sample {
+        public static int suma(int a, int b) {
+            return a + b;
+        }
     }
 }

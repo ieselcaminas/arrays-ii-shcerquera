@@ -1,4 +1,5 @@
-package EJERCICIOS;
+package main;
+
 import java.util.ArrayList;
 
 //Escribid un programa Java para encontrar los valores duplicados de un array de valores enteros.

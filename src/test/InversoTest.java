@@ -1,5 +1,10 @@
-import main.EJERCICIOS.Inverso;
+package test;
+
+import main.Inverso;
+
 import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class InversoTest {
 
