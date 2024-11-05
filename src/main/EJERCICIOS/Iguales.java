@@ -1,4 +1,4 @@
-package main.EJERCICIOS;
+package EJERCICIOS;
 
 import main.Utilidades;
 

@@ -6,25 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c7d52fc1-0d0a-4207-9862-7c6666bc251b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/ComunesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/ComunesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/DuplicadosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/DuplicadosTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/EJERCICIOS/Comunes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/EJERCICIOS/Duplicados.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/EJERCICIOS/Iguales.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/EJERCICIOS/SumaIgual.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/IgualesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/IgualesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/SumaIgualTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/SumaIgualTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/main/EJERCICIOS/Inverso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/main/EJERCICIOS/Inverso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/main/Eliminar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/arrays-ii-shcerquera/main/Eliminar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EJERCICIOS/Comunes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EJERCICIOS/Comunes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/EJERCICIOS/Comunes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Comunes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/EJERCICIOS/Duplicados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EJERCICIOS/Duplicados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/EJERCICIOS/Iguales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EJERCICIOS/Iguales.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/EJERCICIOS/Inverso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EJERCICIOS/Inverso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/EJERCICIOS/SumaIgual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EJERCICIOS/SumaIgual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsOriginal/ComunesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsOriginal/ComunesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsOriginal/DuplicadosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsOriginal/DuplicadosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsOriginal/IgualesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsOriginal/IgualesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsOriginal/SumaIgualTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/testsOriginal/SumaIgualTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Eliminar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EJERCICIOS/Eliminar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testsOriginal/InversoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/InversoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shcerquera&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:ieselcaminas/arrays-ii-shcerquera.git&quot;,
+    &quot;accountId&quot;: &quot;5526bb2d-a792-4693-8a0e-dacb1894a046&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -77,7 +78,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/sarita/projects/school/programming",
+    "last_opened_file_path": "/home/sarcerera/projects/arrays-ii-shcerquera/src/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,6 +90,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.main.EJERCICIOS.SumaIgual">
     <configuration name="Inverso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.EJERCICIOS.Inverso" />
@@ -105,7 +114,7 @@
     </configuration>
     <configuration name="SumaIgual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EJERCICIOS.SumaIgual" />
-      <module name="arrays-ii-shcerquera" />
+      <module name="ClassroomArrays" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="EJERCICIOS.*" />
@@ -157,14 +166,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -180,5 +181,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/testsOriginal/EliminarTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

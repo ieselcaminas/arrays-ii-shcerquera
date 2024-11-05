@@ -1,8 +1,6 @@
 import main.EJERCICIOS.Inverso;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class InversoTest {
 
     @Test

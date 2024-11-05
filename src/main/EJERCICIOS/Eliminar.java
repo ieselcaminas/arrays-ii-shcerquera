@@ -1,4 +1,4 @@
-package main;
+package EJERCICIOS;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -75,7 +75,7 @@ public class Eliminar {
 
         int[] array = new int[arrayLength];
 
-        Utilidades.rellenaArray(array, 1, 100);
+        main.Utilidades.rellenaArray(array, 1, 100);
 
         int size = array.length;
 

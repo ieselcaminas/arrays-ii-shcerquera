@@ -1,6 +1,5 @@
-package main.EJERCICIOS;
+package EJERCICIOS;
 
-import java.util.HashSet;
 import java.util.Scanner;
 
 //Escribid un programa Java para encontrar todos los pares de elementos en un array cuya suma es

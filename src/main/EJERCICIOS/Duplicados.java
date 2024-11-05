@@ -1,6 +1,4 @@
-package main.EJERCICIOS;
-
-import javax.xml.transform.Source;
+package EJERCICIOS;
 import java.util.ArrayList;
 
 //Escribid un programa Java para encontrar los valores duplicados de un array de valores enteros.
