@@ -1,4 +1,8 @@
+# Ignorar directorios de compilación estándar
 target/
+bin/
+out/
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
