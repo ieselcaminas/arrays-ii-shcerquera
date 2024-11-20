@@ -1,6 +1,6 @@
 package main;
 
-import main.utils.Utilidades;
+import utils.Utilidades;
 
 import java.util.ArrayList;
 import java.util.Scanner;
