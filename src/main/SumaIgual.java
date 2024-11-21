@@ -29,11 +29,9 @@ public class SumaIgual {
                 }
             }
         }
-
         if (results == "") {
             return "Ninguna coincidencia";
         }
-
         return results;
     }
 
